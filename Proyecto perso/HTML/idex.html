@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MajoviPets</title>
+    <link rel="stylesheet" href="/CSS/index.css"> 
+    <script src="/JAVASCRIPT/Index.JS" defer></script> <!-- Enlace al script JavaScript -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> <!-- Enlace a la fuente -->
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/img/Logo 03.jpg" alt="Logotipo de MajoviPets" aria-label="Logotipo de MajoviPets"> <!-- Agregado aria-label para accesibilidad -->
+            <h1>Bienvenidos a MajoviPets</h1>
+        </div>
+        <nav class="menu-desplegable">
+            <ul>
+                <li>
+                    <a href="#">Productos</a>
+                    <ul>
+                        <li><a href="Alimentos.html">Alimentos</a></li>
+                        <li><a href="Animales.html">Animales</a></li>
+                        <li><a href="accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Más Información</a>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="https://www.tiktok.com/@vivianamejia10?is_from_webapp=1&sender_device=pc">Contacto</a></li>
+                        <li><a href="quejas.html">Quejas y Reclamos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-principal">
+        <section class="galeria" id="inicio"> <!-- Agregado id para enlazar con el menú -->
+            <div class="foto-animal">
+                <img src="/img/F pez 06.jpg" alt="Acuario" aria-label="Acuario"  >
+            </div>
+            
+            <div class="video-acuario">
+                <video controls>
+                    <source src="/img/inicio 01.mov" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+            
+            <div class="foto-animal">
+                <img src="/img/F pez 04.jpg" alt="Pez" aria-label="pez bailarina"> 
+            </div>
+        </section>
+
+        <section class="info-secciones">
+            <div class="seccion" id="nosotros"> 
+                <h2>Sobre Nosotros</h2>
+                <p>Descubre nuestra pasión por el cuidado de las mascotas y nuestro compromiso con su bienestar.</p>
+            </div>
+
+            <div class="seccion" id="productos">
+                <h2>Lo que Buscamos con Nuestros Productos</h2>
+                <p>Ofrecemos productos de alta calidad para garantizar la salud y felicidad de tus mascotas.</p>
+            </div>
+
+            <div class="seccion" id="alimentos">
+                <h2>Nuestros Productos</h2>
+                <p>Encuentra todo lo que necesitas para el cuidado de tus mascotas acuáticas y roedores.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 MajoviPets. Todos los derechos reservados.</p> <!-- Agregado pie de página -->
+    </footer>
+</body>
+</html>
